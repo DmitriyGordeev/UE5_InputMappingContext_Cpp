@@ -56,7 +56,7 @@ AMovingPawn::AMovingPawn()
 	MovementComponent = CreateDefaultSubobject<UCustomPawnMovementComponent>(
 		TEXT("CustomMovementComponent"));
 	MovementComponent->UpdatedComponent = RootComponent;
-ntext 
+
 }
 
 void AMovingPawn::OnConstruction(const FTransform& Transform)
